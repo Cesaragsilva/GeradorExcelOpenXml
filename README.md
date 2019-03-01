@@ -20,6 +20,9 @@ Utilizar a chamada do método GerarExcelOpenXml como exemplo abaixo passando os 
 
 * [Display(Name = "Id do Usuário")] public decimal Id { get; set; } - Caso as propriedades da classe possuam um DataAnnotations, será utilizada a descrição do DataAnnotations para escrever o titulo das colunas no excel  (Coluna será gerado com o Título "Id do Usuário")
 
+# DataAnnotations 
+https://docs.microsoft.com/pt-br/dotnet/api/system.componentmodel.dataannotations?view=netframework-4.7.2
+
 # Exemplo prático
             #Classe Base
             public class listBase
