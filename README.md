@@ -16,9 +16,9 @@ Utilizar a chamada do método GerarExcelOpenXml como exemplo abaixo passando os 
 * larguraDefault: Largura que será aplicada a todas as colunas
 
 # Dicas
-* public decimal Id { get; set; } - Caso as propriedades da classe não possuam um DataAnnotations, será utilizada o nome da propriedade para escrever o titulo das colunas no excel
+* public decimal Id { get; set; } - Caso as propriedades da classe não possuam um DataAnnotations, será utilizada o nome da propriedade para escrever o titulo das colunas no excel (Coluna será gerado com o Título Id)
 
-* [Display(Name = "Id do Usuário")] public decimal Id { get; set; } - Caso as propriedades da classe possuam um DataAnnotations, será utilizada a descrição do DataAnnotations para escrever o titulo das colunas no excel
+* [Display(Name = "Id do Usuário")] public decimal Id { get; set; } - Caso as propriedades da classe possuam um DataAnnotations, será utilizada a descrição do DataAnnotations para escrever o titulo das colunas no excel  (Coluna será gerado com o Título "Id do Usuário")
 
 # Exemplo prático
             #Classe Base
