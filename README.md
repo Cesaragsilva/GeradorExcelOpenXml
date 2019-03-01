@@ -23,6 +23,9 @@ Utilizar a chamada do método GerarExcelOpenXml como exemplo abaixo passando os 
 # DataAnnotations 
 https://docs.microsoft.com/pt-br/dotnet/api/system.componentmodel.dataannotations?view=netframework-4.7.2
 
+# Pacote Nuget
+https://www.nuget.org/packages/GeradorExcelOpenXml/   
+
 # Exemplo prático
             #Classe Base
             public class listBase
