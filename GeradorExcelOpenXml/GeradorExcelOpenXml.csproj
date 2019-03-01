@@ -6,7 +6,6 @@
     <PackageTags>OpenXml GeradorExcel ExcelTemplateOpenXml</PackageTags>
     <Authors>Cesaragsilva</Authors>
     <Title>Gerador de Excel via OpenXml</Title>
-    <MinClientVersion>v3</MinClientVersion>
     <Company>Cesaragsilva</Company>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <NeutralLanguage>pt-BR</NeutralLanguage>
