@@ -10,7 +10,7 @@
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <NeutralLanguage>pt-BR</NeutralLanguage>
     <Copyright>Copyright (c) 2019 Cesaragsilva</Copyright>
-    <LicenseUrl>https://github.com/Cesaragsilva/GeradorExcelOpenXml/blob/master/LICENSE</LicenseUrl>
+    <PackageLicenseUrl>https://github.com/Cesaragsilva/GeradorExcelOpenXml/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/Cesaragsilva/GeradorExcelOpenXml</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Cesaragsilva/GeradorExcelOpenXml</RepositoryUrl>
   </PropertyGroup>
