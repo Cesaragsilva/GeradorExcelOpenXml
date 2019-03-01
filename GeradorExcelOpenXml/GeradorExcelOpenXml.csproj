@@ -1,16 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Description>Gerar excel via OpenXml com base em um arquivo modelo</Description>
     <PackageTags>OpenXml GeradorExcel ExcelTemplateOpenXml</PackageTags>
     <Authors>Cesaragsilva</Authors>
+    <Title>Gerador de Excel via OpenXml</Title>
+    <MinClientVersion>v3</MinClientVersion>
     <Company>Cesaragsilva</Company>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <NeutralLanguage>pt-BR</NeutralLanguage>
     <Copyright>Copyright (c) 2019 Cesaragsilva</Copyright>
-    <PackageLicenseUrl>https://github.com/Cesaragsilva/GeradorExcelOpenXml/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageLicenseExpression>https://github.com/Cesaragsilva/GeradorExcelOpenXml/blob/master/LICENSE</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/Cesaragsilva/GeradorExcelOpenXml</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Cesaragsilva/GeradorExcelOpenXml</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
