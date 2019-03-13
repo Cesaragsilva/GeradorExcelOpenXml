@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RequisicoesApiBase</name>
+    </assembly>
+    <members>
+        <member name="M:RequisicoesApiBase.IServicoRequisicaoBaseHttpMetodos.GetAsync``1(System.String)">
+            <summary>
+            Efetua uma requisição assincrona do metodo GET conforme a URI
+            </summary>
+            <param name="uri">Url para efetuar a request</param>
+        </member>
+        <member name="M:RequisicoesApiBase.IServicoRequisicaoBaseHttpMetodos.PostAsync``1(System.String,``0)">
+            <summary>
+            Efetua uma requisição assincrona do metodo POST conforme a URI e o corpo enviada
+            </summary>
+            <param name="uri">Url para efetuar a request</param>
+        </member>
+        <member name="M:RequisicoesApiBase.IServicoRequisicaoBaseHttpMetodos.PutAsync``1(System.String,``0)">
+            <summary>
+            Efetua uma requisição assincrona do metodo PUT conforme a URI e o corpo enviada
+            </summary>
+            <param name="uri">Url para efetuar a request</param>
+        </member>
+        <member name="M:RequisicoesApiBase.IServicoRequisicaoBaseHttpMetodos.DeleteAsync``1(System.String)">
+            <summary>
+            Efetua uma requisição assincrona do metodo DELETE conforme a URI
+            </summary>
+            <param name="uri">Url para efetuar a request</param>
+        </member>
+        <member name="M:RequisicoesApiBase.IServicoRequisicaoBaseHttpMetodos.Get``1(System.String)">
+            <summary>
+            Efetua uma requisição sincrona do metodo GET conforme a URI
+            </summary>
+            <param name="uri">Url para efetuar a request</param>
+        </member>
+        <member name="M:RequisicoesApiBase.IServicoRequisicaoBaseHttpMetodos.Post``1(System.String,``0)">
+            <summary>
+            Efetua uma requisição sincrona do metodo POST conforme a URI e o corpo enviada
+            </summary>
+            <param name="uri">Url para efetuar a request</param>
+        </member>
+        <member name="M:RequisicoesApiBase.IServicoRequisicaoBaseHttpMetodos.Put``1(System.String,``0)">
+            <summary>
+            Efetua uma requisição sincrona do metodo PUT conforme a URI e o corpo enviada
+            </summary>
+            <param name="uri">Url para efetuar a request</param>
+        </member>
+        <member name="M:RequisicoesApiBase.IServicoRequisicaoBaseHttpMetodos.Delete``1(System.String)">
+            <summary>
+            Efetua uma requisição sincrona do metodo DELETE conforme a URI
+            </summary>
+            <param name="uri">Url para efetuar a request</param>
+        </member>
+        <member name="M:RequisicoesApiBase.IServicoRequisicaoBaseToken.GerarTokenClientCredentialsAsync(System.String,System.String,System.String,System.String)">
+            <summary>
+            Gera um token via o flow ClientCredentials
+            </summary>
+            <param name="hostIdentityServer">Url do identity server</param>
+            <param name="clientId">clientId para obter o token</param>
+            <param name="clientSecret">secret do clientId</param>
+            <param name="scope">Scope solicitados para obter o token</param>
+        </member>
+        <member name="M:RequisicoesApiBase.IServicoRequisicaoBaseToken.GerarTokenClientPasswordAsync(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Gera um token via o flow Password
+            </summary>
+            <param name="hostIdentityServer">Url do identity server</param>
+            <param name="clientId">clientId para obter o token</param>
+            <param name="clientSecret">secret do clientId</param>
+            <param name="scope">Scope solicitados para obter o token</param>
+        </member>
+        <member name="M:RequisicoesApiBase.Servico.ServicoRequisicaoBaseHttpMetodos.GetAsync``1(System.String)">
+            <summary>
+            Efetua uma requisição assincrona do metodo GET conforme a URI
+            </summary>
+            <param name="uri">Url para efetuar a request</param>
+        </member>
+        <member name="M:RequisicoesApiBase.Servico.ServicoRequisicaoBaseHttpMetodos.Get``1(System.String)">
+            <summary>
+            Efetua uma requisição sincrona do metodo GET conforme a URI
+            </summary>
+            <param name="uri">Url para efetuar a request</param>
+        </member>
+        <member name="M:RequisicoesApiBase.Servico.ServicoRequisicaoBaseHttpMetodos.PostAsync``1(System.String,``0)">
+            <summary>
+            Efetua uma requisição assincrona do metodo POST conforme a URI e o corpo enviada
+            </summary>
+            <param name="uri">Url para efetuar a request</param>
+        </member>
+        <member name="M:RequisicoesApiBase.Servico.ServicoRequisicaoBaseHttpMetodos.Post``1(System.String,``0)">
+            <summary>
+            Efetua uma requisição sincrona do metodo POST conforme a URI e o corpo enviada
+            </summary>
+            <param name="uri">Url para efetuar a request</param>
+        </member>
+        <member name="M:RequisicoesApiBase.Servico.ServicoRequisicaoBaseHttpMetodos.PutAsync``1(System.String,``0)">
+            <summary>
+            Efetua uma requisição assincrona do metodo PUT conforme a URI e o corpo enviada
+            </summary>
+            <param name="uri">Url para efetuar a request</param>
+        </member>
+        <member name="M:RequisicoesApiBase.Servico.ServicoRequisicaoBaseHttpMetodos.Put``1(System.String,``0)">
+            <summary>
+            Efetua uma requisição sincrona do metodo PUT conforme a URI e o corpo enviada
+            </summary>
+            <param name="uri">Url para efetuar a request</param>
+        </member>
+        <member name="M:RequisicoesApiBase.Servico.ServicoRequisicaoBaseHttpMetodos.DeleteAsync``1(System.String)">
+            <summary>
+            Efetua uma requisição assincrona do metodo DELETE conforme a URI
+            </summary>
+            <param name="uri">Url para efetuar a request</param>
+        </member>
+        <member name="M:RequisicoesApiBase.Servico.ServicoRequisicaoBaseHttpMetodos.Delete``1(System.String)">
+            <summary>
+            Efetua uma requisição sincrona do metodo DELETE conforme a URI
+            </summary>
+            <param name="uri">Url para efetuar a request</param>
+        </member>
+        <member name="M:RequisicoesApiBase.Servico.ServicoRequisicaoBaseToken.GerarTokenClientCredentialsAsync(System.String,System.String,System.String,System.String)">
+            <summary>
+            Gera um token via o flow ClientCredentials
+            </summary>
+            <param name="hostIdentityServer">Url do identity server</param>
+            <param name="clientId">clientId para obter o token</param>
+            <param name="clientSecret">secret do clientId</param>
+            <param name="scope">Scope solicitados para obter o token</param>
+        </member>
+        <member name="M:RequisicoesApiBase.Servico.ServicoRequisicaoBaseToken.GerarTokenClientPasswordAsync(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Gera um token via o flow Password
+            </summary>
+            <param name="hostIdentityServer">Url do identity server</param>
+            <param name="clientId">clientId para obter o token</param>
+            <param name="clientSecret">secret do clientId</param>
+            <param name="scope">Scope solicitados para obter o token</param>
+        </member>
+    </members>
+</doc>

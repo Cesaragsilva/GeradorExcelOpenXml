@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeradorExcelOpenXml", "GeradorExcelOpenXml\GeradorExcelOpenXml.csproj", "{800A7DD1-24E3-4FBA-AED3-DC365DFBA695}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequisicoesApiBase", "RequisicoesApiBase\RequisicoesApiBase.csproj", "{943798E1-D2B4-49E0-9B90-71F024CA2794}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{800A7DD1-24E3-4FBA-AED3-DC365DFBA695}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{800A7DD1-24E3-4FBA-AED3-DC365DFBA695}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{800A7DD1-24E3-4FBA-AED3-DC365DFBA695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{943798E1-D2B4-49E0-9B90-71F024CA2794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{943798E1-D2B4-49E0-9B90-71F024CA2794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{943798E1-D2B4-49E0-9B90-71F024CA2794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{943798E1-D2B4-49E0-9B90-71F024CA2794}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
