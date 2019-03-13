@@ -15,7 +15,7 @@ https://www.nuget.org/packages/
 # Registro via Injeção de Dependência
 
 # Exemplo de utilização de requisicoes base (GET,POST,PUT,DELETE)
-            #Utilização da Interface
+			#Utilização da Interface
 			private readonly IServicoRequisicaoBaseHttpMetodos _serverBaseHttpMetodos;
 			public meuConstrutor(IServicoRequisicaoBaseHttpMetodos serverBaseHttpMetodos){
 				_serverBaseHttpMetodos = serverBaseHttpMetodos;
