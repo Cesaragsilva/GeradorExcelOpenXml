@@ -5,5 +5,5 @@ Pacotes nugets para funcionalidades do dia a dia
 Acesse o README de cada projeto para encontrar o HOW TO USE
 
 # Projetos
-* Gerador de Excel via OpenXML - https://github.com/Cesaragsilva/GeradorExcelOpenXml/tree/master/GeradorExcelOpenXml
-* RequisicoesApiBAse - https://github.com/Cesaragsilva/Nugets/tree/master/RequisicoesApiBase
+* GeradorExcelOpenXML - https://github.com/Cesaragsilva/GeradorExcelOpenXml/tree/master/GeradorExcelOpenXml
+* RequisicoesApiBase - https://github.com/Cesaragsilva/Nugets/tree/master/RequisicoesApiBase
