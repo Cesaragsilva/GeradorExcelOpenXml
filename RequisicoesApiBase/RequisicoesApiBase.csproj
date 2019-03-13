@@ -5,7 +5,7 @@
     <Description>Efetuar requisições (GET,POST,PUT,DELETE) com autorização do tipo Bearer (pode ser obtida via a interface IServicoRequisicaoBaseToken)</Description>
     <PackageTags>HttpGet HttpPost HttpDelete HttpPut Bearer Token Request API Assincrono Sincrono</PackageTags>
     <Authors>Cesaragsilva</Authors>
-    <Title>Gerador de Excel via OpenXml</Title>
+    <Title>Requisicoes Api Base</Title>
     <Company>Cesaragsilva</Company>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <NeutralLanguage>pt-BR</NeutralLanguage>
