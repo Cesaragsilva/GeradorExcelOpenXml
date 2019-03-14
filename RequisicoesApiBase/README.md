@@ -41,6 +41,13 @@ services.AddSingleton<IServicoRequisicaoBaseToken, ServicoRequisicaoBaseToken>()
 * username: login do usuário para identificação quando solicitado o token com o flow ResourceOwnerPassword
 * password: password do usuário para identificação quando solicitado o token com o flow ResourceOwnerPassword
 
+	   #IOC
+		public IServiceProvider ConfigureServices(IServiceCollection services)
+        	{
+		    services.AddSingleton<IServicoRequisicaoBaseHttpMetodos, ServicoRequisicaoBaseHttpMetodos>();
+		    services.AddSingleton<IServicoRequisicaoBaseToken, ServicoRequisicaoBaseToken>();
+		 }
+	    
             #Utilização da Interface
 			private readonly IServicoRequisicaoBaseToken _serverToken;
 			public meuConstrutor(IServicoRequisicaoBaseToken serverToken){
