@@ -8,11 +8,16 @@ Via injeção de dependência utilizar as interfaces IServicoRequisicaoBaseHttpM
 http://docs.identityserver.io/en/latest/
 # DependencyInjection
 https://github.com/autofac/Autofac
+https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection?view=aspnetcore-2.2
+https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection?view=aspnetcore-2.2
 
 # Pacote Nuget
 https://www.nuget.org/packages/   
 
 # Registro via Injeção de Dependência
+Na classe Startup do projeto, no método ConfigureServices(IServiceCollection services) configure a Injeção de Dependência
+services.AddSingleton<IServicoRequisicaoBaseHttpMetodos, ServicoRequisicaoBaseHttpMetodos>();
+services.AddSingleton<IServicoRequisicaoBaseToken, ServicoRequisicaoBaseToken>();
 
 # Exemplo de utilização de requisicoes base (GET,POST,PUT,DELETE)
 			#Utilização da Interface
