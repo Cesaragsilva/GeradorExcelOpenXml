@@ -21,6 +21,7 @@ services.AddSingleton<IServicoRequisicaoBaseToken, ServicoRequisicaoBaseToken>()
 
 ou utilize o Autofac(Ou qualquer outro para ID)
 		
+		#Via Autofac
 		builder.RegisterType<ServicoRequisicaoBaseHttpMetodos>().As<IServicoRequisicaoBaseHttpMetodos>();
 
 		#ID Default .NET Core
