@@ -19,7 +19,11 @@ Na classe Startup do projeto, no método ConfigureServices(IServiceCollection se
 services.AddSingleton<IServicoRequisicaoBaseHttpMetodos, ServicoRequisicaoBaseHttpMetodos>();
 services.AddSingleton<IServicoRequisicaoBaseToken, ServicoRequisicaoBaseToken>();
 
-		#IOC
+ou utilize o Autofac(Ou qualquer outro para ID)
+		
+		builder.RegisterType<ServicoRequisicaoBaseHttpMetodos>().As<IServicoRequisicaoBaseHttpMetodos>();
+
+		#ID Default .NET Core
 		public IServiceProvider ConfigureServices(IServiceCollection services)
         	{
 		    services.AddSingleton<IServicoRequisicaoBaseHttpMetodos, ServicoRequisicaoBaseHttpMetodos>();
